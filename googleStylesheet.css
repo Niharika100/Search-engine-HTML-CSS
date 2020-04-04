@@ -1,0 +1,69 @@
+body{
+	background-color: #F76390;
+}
+h1.google{
+	font-style: bold;
+	text-align: center;
+	font-size: 120px;
+	margin-top: 200px;
+
+}
+.search-txt{
+   border:none;
+   background: none;
+   outline: none;
+   line-height:30px;
+   width: 0px;
+   transition: 0.9s;/*important and new*/
+
+}
+.search-box:hover>.search-txt{
+	width:260px;
+	padding: 6px;
+	transition: 0.9s;
+}
+.search-btn{
+	color: red;
+	border:none;
+	justify-content: center;
+	border-radius: 50px;
+    transition: 0.9s;
+    display: flex;/*dispay to align items are a group*/
+    width: 40px;
+    height: 40px;
+    float: right;
+    align-items: center;
+}
+.search-box:hover>.search-btn{
+	
+	border:none;
+	align-items: center;
+	background-color: red;
+	color:pink;
+	border-radius: 50px;
+}
+.search-box{
+	border-radius: 40px;
+	background-color: pink;
+	position:absolute;
+	transition: 0.4s;
+	height: 40px;
+	padding: 20px;
+	/*transform: translate(-50%,-50%);*/
+	/*margin: 0 auto 0 auto;*/
+	top: 50%;
+	right: 42%;
+}
+.footer-left{
+	float: left;
+	margin-top: 200px;
+	margin-bottom: 0px: 
+}
+a.link{
+		font-size: 20px;
+		font-style: bold;
+}
+.footer-right{
+	float: right;
+	margin-top: 200px;
+}
